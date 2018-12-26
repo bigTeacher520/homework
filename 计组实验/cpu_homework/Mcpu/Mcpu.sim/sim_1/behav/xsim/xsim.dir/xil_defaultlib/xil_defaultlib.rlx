@@ -1,0 +1,25 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+G:/cpu_homework/Mcpu/Mcpu.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sim_1/new/Test.v,1545135516,verilog,,,,TestCPU,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/ALU.v,1545818897,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/new/ControlUnit.v,,ALU,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/DFlipFlop.v,1544948960,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/DR.v,,DFlipFlop,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/DR.v,1545048844,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/InstructionMemory.v,,DR,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/InstructionMemory.v,1544952394,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/InstructionRegister.v,,InstructionMemory,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/InstructionRegister.v,1545333983,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Mcpu.v,,InstructionRegister,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Mcpu.v,1545137018,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Multiplexer_21.v,,Mcpu,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Multiplexer_21.v,1544948969,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Multiplexer_31.v,,Multiplexer_21,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Multiplexer_31.v,1545029767,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/NextState.v,,Multiplexer_31,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/Multiplexer_41.v,1544862545,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/NextState.v,,Multiplexer_41,,,../../../../Mcpu.srcs/sources_1/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/NextState.v,1545484795,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/OutputFunc.v,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/new/head.v;G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/new/head.v,NextState,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/OutputFunc.v,1545818872,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/PC.v,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/new/head.v;G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/new/head.v,OutputFunc,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/PC.v,1544948963,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/PCGenerator.v,,PC,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/PCGenerator.v,1545137238,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/RegFile.v,,PCGenerator,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/RegFile.v,1545048593,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/datamemory.v,,RegFile,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/datamemory.v,1545137652,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/signZeroExtend.v,,datamemory,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/signZeroExtend.v,1544949140,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sim_1/new/Test.v,,signZeroExtend,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/new/head.v,1545332511,verilog,,,,,,,,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/new/ControlUnit.v,1545484984,verilog,,G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/imports/Ccpu/DFlipFlop.v,,ControlUnit,,,../../../../Mcpu.srcs/sources_1/imports/new,,,,,
+G:/cpu_homework/Mcpu/Mcpu.srcs/sources_1/new/head.v,1544869940,verilog,,,,,,,,,,,,

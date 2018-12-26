@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec  8 16:32:26 2018
+# Process ID: 12988
+# Current directory: G:/cpu_homework/cpu/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11516 G:\cpu_homework\cpu\project_1\project_1.xpr
+# Log file: G:/cpu_homework/cpu/project_1/vivado.log
+# Journal file: G:/cpu_homework/cpu/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/cpu_homework/cpu/project_1/project_1.xpr
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim
+launch_simulation
+source SCPU_test.tcl
+close_sim

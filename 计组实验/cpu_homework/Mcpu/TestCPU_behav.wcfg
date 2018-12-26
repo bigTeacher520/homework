@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestCPU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestCPU" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="72734334fs"></ZoomStartTime>
+      <ZoomEndTime time="407734335fs"></ZoomEndTime>
+      <Cursor1Time time="234234000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="119"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/TestCPU/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/opCode" type="array">
+      <obj_property name="ElementShortName">opCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/curState" type="array">
+      <obj_property name="ElementShortName">curState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">curState[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/nextState" type="array">
+      <obj_property name="ElementShortName">nextState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nextState[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/mcpu/IR/sa" type="array">
+      <obj_property name="ElementShortName">sa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/curPC" type="array">
+      <obj_property name="ElementShortName">curPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/nextPC" type="array">
+      <obj_property name="ElementShortName">nextPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/ADR" type="array">
+      <obj_property name="ElementShortName">ADR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/BDR" type="array">
+      <obj_property name="ElementShortName">BDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/sa" type="array">
+      <obj_property name="ElementShortName">sa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/Aout" type="array">
+      <obj_property name="ElementShortName">Aout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Aout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/Bout" type="array">
+      <obj_property name="ElementShortName">Bout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/data1_out" type="array">
+      <obj_property name="ElementShortName">data1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/data2_out" type="array">
+      <obj_property name="ElementShortName">data2_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data2_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/DBDR" type="array">
+      <obj_property name="ElementShortName">DBDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DBDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/alu_dr" type="array">
+      <obj_property name="ElementShortName">alu_dr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_dr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/RegWre" type="logic">
+      <obj_property name="ElementShortName">RegWre</obj_property>
+      <obj_property name="ObjectShortName">RegWre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/WrRegDSrc" type="logic">
+      <obj_property name="ElementShortName">WrRegDSrc</obj_property>
+      <obj_property name="ObjectShortName">WrRegDSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/RegDst" type="array">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/PCSrc" type="array">
+      <obj_property name="ElementShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/address" type="array">
+      <obj_property name="ElementShortName">address[25:0]</obj_property>
+      <obj_property name="ObjectShortName">address[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/mRD" type="logic">
+      <obj_property name="ElementShortName">mRD</obj_property>
+      <obj_property name="ObjectShortName">mRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestCPU/mWR" type="logic">
+      <obj_property name="ElementShortName">mWR</obj_property>
+      <obj_property name="ObjectShortName">mWR</obj_property>
+   </wvobject>
+</wave_config>
