@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Dec 26 20:06:50 2018
+# Process ID: 14560
+# Current directory: G:/gitwork/计组实验/cpu_homework/Mcpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20252 G:\gitwork\计组实验\cpu_homework\Mcpu\Mcpu.xpr
+# Log file: G:/gitwork/计组实验/cpu_homework/Mcpu/vivado.log
+# Journal file: G:/gitwork/计组实验/cpu_homework/Mcpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/gitwork/计组实验/cpu_homework/Mcpu/Mcpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config G:/gitwork/计组实验/cpu_homework/Mcpu/TestCPU_behav.wcfg
+source TestCPU.tcl
+close_sim
